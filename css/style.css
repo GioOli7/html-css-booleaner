@@ -45,7 +45,8 @@ span {
 
 
 ul {
-  padding-left: 15px;
+  padding-left: 0px;
+  list-style-position: inside;
   margin: 20px 0;
 }
 
