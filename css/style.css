@@ -1,0 +1,17 @@
+header {
+  background-image: url("../img/pattern.png");
+  background-color: lightskyblue;
+  height: 120px;
+}
+
+/* div contenitore in header */
+.head {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 50%;
+  margin-top: 40px;
+}
