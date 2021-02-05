@@ -26,6 +26,29 @@ h4, h5 {
 }
 
 #autore {
-  color: lightseagreen;
+  color: #20a9e5;
 }
 
+ul {
+  padding-left: 15px;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #20a9e5;
+  color: white;
+  text-align: left;
+}
+
+#col-width {
+  width: 50%;
+}
+
+.blue-row {
+  background-color: lightblue;
+}
