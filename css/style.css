@@ -4,8 +4,8 @@ header {
   height: 120px;
 }
 
-/* div contenitore in header */
-.head {
+/* div contenitore per margini laterali */
+.container {
   height: 100%;
   width: 80%;
   margin: 0 auto;
@@ -15,3 +15,17 @@ header {
   height: 50%;
   margin-top: 40px;
 }
+
+h1 {
+  margin-bottom: 0;
+}
+
+h4, h5 {
+  color: gray;
+  margin: 0;
+}
+
+#autore {
+  color: lightseagreen;
+}
+
