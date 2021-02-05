@@ -1,6 +1,6 @@
 header {
   background-image: url("../img/pattern.png");
-  background-color: lightskyblue;
+  background-color: #4ea0ff;
   height: 120px;
 }
 
@@ -31,8 +31,16 @@ h4, h5 {
   margin: 0;
 }
 
+span {
+  font-size: 13px;
+}
+
 #autore {
   color: #20a9e5;
+}
+
+.foto {
+  margin-top: 20px;
 }
 
 ul {
@@ -42,7 +50,7 @@ ul {
 
 table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: collapse; /* Mi permette di eliminare i bordi delle celle  */
 }
 
 thead {
@@ -51,6 +59,7 @@ thead {
   text-align: left;
 }
 
+/* costringo l'ultima colonna della table ad occupare il 50% dell'intera larghezza */
 #col-width {
   width: 50%;
 }
