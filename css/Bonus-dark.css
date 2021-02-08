@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color:rgb(37, 37, 37);
+    color: lightgrey;
+}
+
+header {
+    background-color: #3067a5;
+    border-bottom: 2px solid black;
+}
+
+  
+  /* div contenitore per margini laterali */
+.container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Aggiungo la scritta DARK MODE */
+header>.container::after {
+    content: "Dark Mode - BETA";
+}
+
+/* Applico i seguenti stili sono alla scritta DARK MODE */
+header>.container{
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+  
+.logo {
+      width: 70%;
+      display: block;
+      margin: auto;
+      padding-top: 10px;
+}
+
+
+h1 {
+    border-left: thick solid #ff664e;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: white;
+}
+
+
+h4, h5, span {
+    display: none;
+}
+
+section > h4 {
+    display: initial;
+    font-size: 1.5em;
+}
+
+.foto {
+    text-align: center;
+}
+
+section {
+    margin: 50px 0;
+}
+
+section > p {
+    font-size: 1.5em;
+    border-top: 2px dashed #ff664e;
+    border-bottom: 2px dashed #ff664e;
+}
+
+mark {
+    background-color: #4ea0ff;
+    color: white;
+    text-transform:uppercase;
+    font-size: 0.85em;
+}
+
+ul {
+    font-family: monospace;
+    font-weight: bold;
+    list-style-type:square
+}
+
+ul > li {
+    padding-top: 10px;
+}
+
+th, td {
+    border: 2px solid #4ea0ff;
+}
+
+#col-width {
+    width: 50%;
+  }
+
+.img1 {
+    background-image: url("../img/monitor.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+  
+.img2 {
+    background-image: url("../img/graph.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    margin-top: 10px;
+
+}
